@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+body, button, input, label, select, td, textarea {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+body {
+    background-color: #ffffff60;
+    color: #1c1e21;
+    line-height: 1.34;
+    margin: 0;
+    padding: 0;
+    unicode-bidi: embed;
+    width: 100vw;
+    height: 100vh;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 90%;
+
+}
+
+
+#infor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+
+h1 {
+    color: rgb(24, 119, 242);
+    font-size: 70px;
+}
+#text> p {
+    font-size: 27px;    
+}
+
+#text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 200px ;
+    height: 100%;
+    width: 60%px;
+}
+
+#container-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    margin-bottom: 20px;
+
+
+}
+
+#form {
+
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 2px;
+    width: 50%;
+    height: 60%;
+    background-color:white;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+input {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    box-shadow: 0 0 2px;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+}
+
+#entrar {
+    margin: 5px;
+    border: none;
+    box-shadow: 0 0 5px;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(24, 119, 242);
+    color: #fff;
+}
+
+#entrar:hover{
+    background-color: rgb(63, 138, 236);
+}
+
+.senha {
+    margin: 10px;
+    font-size: 14px;
+    color: rgb(24, 119, 242);
+
+}
+
+#criar {
+    margin: 5px;
+    border: none;
+    box-shadow: 0 0 5px;
+    border-radius: 5px;
+    width: 170px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: rgb(78, 233, 78);
+    color: #fff;
+}
+
+#criar:hover {
+    background-color: rgb(16, 238, 16);
+
+}
+
+#extra {
+    margin-top: 20px;
+}
+
+a {
+    color: #1c1e21;
+    font-weight:800;
+}
+
+button {
+    cursor: pointer;
+
+}
